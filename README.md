@@ -1,13 +1,13 @@
-# 🧠 Real-Time Edge Detection Viewer
+#  Real-Time Edge Detection Viewer
 
 This project is a hybrid **Android + Web** application that demonstrates real-time **edge detection** using the device camera (via OpenCV in C++) and **OpenGL ES rendering** for smooth display.
 It also includes a **TypeScript web viewer** that visualizes a processed frame demo with FPS and resolution stats.
 
 ---
 
-## 📱 Android App Overview
+##  Android App Overview
 
-### 🔧 Features
+###  Features
 
 * Real-time camera feed capture (Camera2 API)
 * Image frame processing with **OpenCV (C++)**
@@ -15,7 +15,7 @@ It also includes a **TypeScript web viewer** that visualizes a processed frame d
 * OpenGL ES renderer for efficient frame display
 * Toggle between normal and edge-detected modes
 
-### 🧩 Tech Stack
+### Tech Stack
 
 | Layer             | Technology          |
 | ----------------- | ------------------- |
@@ -27,7 +27,7 @@ It also includes a **TypeScript web viewer** that visualizes a processed frame d
 
 ---
 
-## 🌍 Web Demo (TypeScript)
+##  Web Demo (TypeScript)
 
 ### Files
 
@@ -55,7 +55,7 @@ It also includes a **TypeScript web viewer** that visualizes a processed frame d
 
 ---
 
-## 🧱 Folder Structure
+##  Folder Structure
 
 ```
 Real-Time-Edge-Detection-Viewer/
@@ -78,7 +78,7 @@ Real-Time-Edge-Detection-Viewer/
 
 ---
 
-## ⚙️ Setup Guide (Android + Web)
+## Setup Guide (Android + Web)
 
 ### 1️⃣ Prerequisites
 
@@ -120,7 +120,7 @@ Real-Time-Edge-Detection-Viewer/
 
 ---
 
-## 🧠 Understanding the Flow
+##  Understanding the Flow
 
 ```
 Camera Feed (Kotlin)
@@ -146,7 +146,7 @@ Displays base64 image + FPS + Resolution
 
 ---
 
-## 📦 Sample Commands
+##  Sample Commands
 
 | Task          | Command          |
 | ------------- | ---------------- |
@@ -157,7 +157,7 @@ Displays base64 image + FPS + Resolution
 
 ---
 
-## 🧰 Troubleshooting
+## Troubleshooting
 
 | Issue                       | Cause                      | Fix                                             |
 | --------------------------- | -------------------------- | ----------------------------------------------- |
@@ -169,7 +169,7 @@ Displays base64 image + FPS + Resolution
 
 ---
 
-## 🏁 Credits
+##  Credits
 
 Developed by **Priya Gautam**
 Software Engineering (R&D) Intern Assignment
@@ -177,6 +177,6 @@ Demonstrating OpenCV + OpenGL ES + TypeScript integration.
 
 ---
 
-## 📜 License
+##  License
 
 MIT License – Free to use and modify for educational and research purposes.
