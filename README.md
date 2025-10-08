@@ -62,16 +62,22 @@ It also includes a **TypeScript web viewer** that visualizes a processed frame d
 ##  Folder Structure
 
 ```
-Real-Time-Edge-Detection-Viewer/
+RealTimeEdgeDetectionViewer/
  ┣ app/
- ┃ ┣ src/main/java/com/example/edgedetection/
- ┃ ┃ ┣ MainActivity.kt
- ┃ ┃ ┣ Camera2Helper.kt
- ┃ ┃ ┣ GLRenderer.kt
- ┃ ┃ ┗ NativeBridge.kt
- ┃ ┣ src/main/cpp/native-lib.cpp
- ┃ ┣ src/main/res/layout/activity_main.xml
- ┃ ┗ CMakeLists.txt
+ ┃ ┣ src/
+ ┃ ┃ ┣ main/
+ ┃ ┃ ┃ ┣ java/com/example/edgedetection/
+ ┃ ┃ ┃ ┃ ┣ MainActivity.kt
+ ┃ ┃ ┃ ┃ ┣ Camera2Helper.kt
+ ┃ ┃ ┃ ┃ ┣ YuvUtils.kt
+ ┃ ┃ ┃ ┃ ┣ NativeBridge.kt
+ ┃ ┃ ┃ ┃ ┗ GLRenderer.kt
+ ┃ ┃ ┃ ┣ cpp/
+ ┃ ┃ ┃ ┃ ┗ native-lib.cpp
+ ┃ ┃ ┃ ┣ res/layout/
+ ┃ ┃ ┃ ┃ ┗ activity_main.xml
+ ┃ ┃ ┃ ┗ AndroidManifest.xml
+ ┃ ┣ CMakeLists.txt
  ┣ web/
  ┃ ┣ src/viewer.ts
  ┃ ┣ index.html
