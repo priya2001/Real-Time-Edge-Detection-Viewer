@@ -106,7 +106,7 @@ Real-Time-Edge-Detection-Viewer/
    ```
    app/src/main/cpp/opencv/sdk/native/jni/
    ```
-4. Sync Gradle → Build → Run ▶️ on an emulator or USB-connected device.
+4. Sync Gradle → Build → Run  on an emulator or USB-connected device.
 
 ---
 
