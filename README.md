@@ -152,12 +152,12 @@ Displays base64 image + FPS + Resolution
 
 ##  Sample Commands
 
-| Task          | Command          |
-| ------------- | ---------------- |
-| Build web     | `npm run build`  |
-| Start web     | `npm start`      |
-| Build Android | Use IDE “Run” ▶️ |
-| Clean project | `gradlew clean`  |
+| Task          | Command        |
+| ------------- | -------------- |
+| Build web     | `npm run build` |
+| Start web     | `npm start`    |
+| Build Android | Use IDE “Run”  |
+| Clean project | `gradlew clean` |
 
 ---
 
