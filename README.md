@@ -15,6 +15,10 @@ It also includes a **TypeScript web viewer** that visualizes a processed frame d
 * OpenGL ES renderer for efficient frame display
 * Toggle between normal and edge-detected modes
 
+### Screenshots
+![App Output](image/Screenshots.png)
+
+
 ### Tech Stack
 
 | Layer             | Technology          |
