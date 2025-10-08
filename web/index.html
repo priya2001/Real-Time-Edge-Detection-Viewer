@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edge Detection Web Viewer</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 40px;
+          background: #fafafa;
+          text-align: center;
+        }
+        h1 { color: #333; }
+        img {
+          border: 2px solid #aaa;
+          border-radius: 10px;
+          margin-top: 20px;
+          width: 640px;
+          height: auto;
+        }
+        .info {
+          margin-top: 10px;
+          font-size: 18px;
+          color: #555;
+        }
+    </style>
+</head>
+<body>
+<h1>Edge Detection Result (Sample Frame)</h1>
+<img id="frame" src="" alt="Processed Frame">
+<div class="info">
+    <span id="fps">FPS: --</span> | <span id="res">Resolution: --</span>
+</div>
+
+<script src="web/viewer.ts"></script>
+<script>
+    EdgeViewer.init({
+      imgElementId: 'frame',
+      fpsEl: 'fps',
+      resEl: 'res',
+      demoBase64: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...'
+    });
+</script>
+</body>
+</html>
+

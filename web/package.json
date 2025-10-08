@@ -1,0 +1,16 @@
+{
+  "name": "edge-viewer",
+  "version": "1.0.0",
+  "description": "Web demo viewer for edge detection output",
+  "main": "src/viewer.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx live-server"
+  },
+  "author": "Priya Gautam",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "live-server": "^1.2.2"
+  }
+}
