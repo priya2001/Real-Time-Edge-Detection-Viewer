@@ -90,7 +90,7 @@ RealTimeEdgeDetectionViewer/
 
 ## Setup Guide (Android + Web)
 
-### 1️⃣ Prerequisites
+### 1️ Prerequisites
 
 * IntelliJ IDEA / Android Studio (latest)
 * JDK 17 or 21 (LTS)
@@ -100,7 +100,7 @@ RealTimeEdgeDetectionViewer/
 
 ---
 
-### 2️⃣ Android Build Steps
+### 2️ Android Build Steps
 
 1. Clone or open the project in IntelliJ / Android Studio.
 2. In **File → Project Structure → SDK Location**, set:
@@ -116,7 +116,7 @@ RealTimeEdgeDetectionViewer/
 
 ---
 
-### 3️⃣ Web Viewer Setup
+### 3️ Web Viewer Setup
 
 1. Open terminal inside the `web` folder:
 
